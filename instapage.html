@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+       *{
+        font-family:Montserrat ;
+       box-sizing: border-box;
+       }
+     
+       body{
+        margin: 0;
+        padding: 0;
+       }
+         h2{
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 29px;
+         }
+        .main-container{
+            background-color: #050D1A;
+            width:100%;
+            padding: 0;
+            margin: 0;
+            background-image: url(http://576-LMG-633.mktoweb.com/rs/576-LMG-633/images/63833005-0-Mask-group.png?version=0);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+        .container{
+           max-width: 1170px; 
+           width:100%;
+            margin: 0 auto;
+          
+        }
+        header{
+            
+          padding: 45px 213px;
+        }
+      
+      
+        #col_cont{
+            color: #FFFFFF;
+            max-width: 571px;
+            width: 100%;
+            margin-bottom: 45px;
+        }
+        .preheader{
+            font-size: 20px;
+            line-height: 24px;
+            color: #FF8B67;
+            margin-top: 0;
+            letter-spacing: 0.3px;
+        }
+        #col_form{
+            max-width: 470px;
+            width: 100%;
+        }
+        .form{
+            margin-top: 60px;
+           background-color: #FFFFFF;
+           border-radius: 5px;
+          padding: 50px;
+        
+          
+         
+        }
+        #two_coloumn_section{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+
+            
+        }
+        .two_Col_Cont{
+             max-width: 515px;
+             width:100%;
+        }
+        .landing_page{
+            max-width: 504px;
+            width: 100%;
+            margin: 40px 0;
+        }
+
+        .list,.two_Col_Cont{
+            font-size:18px;
+            line-height: 27px;
+            font-weight: 400;
+           
+        }
+        .list::marker{
+            color: #FF8B67;
+        }
+        #section-2{
+              margin: 0 auto;
+              padding:50px 48px;
+              color: #050D1A;
+            
+              }
+        #section2_list{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .feel-form{
+            border: none;
+            outline: none;
+           appearance: none;
+           padding-top: 30px ;
+           font-size: 16px;
+           line-height: 26px;
+           letter-spacing: 0.3px;
+           color: #8B98A9;
+        }
+        .horizontal-line{
+            color: #BACEE4;
+            size: 1px;
+        }
+        .form-button{
+            border-radius: 50px;
+            max-width: 370px;
+            width: 100%;
+            margin-top:50px ;
+           padding-top:15px ;
+           padding-bottom: 15px;
+           border: none;
+           font-size: 18px;
+           background-color: #FF8B67;
+        }
+        .content_list{
+            padding-bottom: 10px;
+            font-size: 18px;
+            font-weight:400 ;
+            line-height:27px ;
+
+        }
+        .content_list::marker{
+            color: #45536B;
+           
+        }
+        
+        #CTA-section{
+             background-color: #273245;
+             color: #FAFDFF;
+             text-align: center;
+             padding: 50px;
+        }
+        .CTA_Section{
+            display: flex;
+            justify-content: center;
+        }
+        .CTA-Heading{
+            margin: 0;
+        }
+       .CTA-button{
+            border-radius: 50px;
+            max-width:228px;
+            width:100%;
+           padding-top:15px ;
+           padding-bottom: 15px;
+           border: none;
+           font-size: 18px;
+           background-color: #FF8B67;
+         margin: 50px 0;
+        }
+        footer{
+            color: #8B98A9;
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 500;
+           
+        }
+        form{
+            font-family: Montserrat;
+           
+        }
+        h2{
+            
+        }
+        @media only screen and (max-width:1170px){
+      .container{
+       padding:0 20px !important;
+     
+      
+      }
+     
+       }
+       @media only screen and (max-width:992px){
+        #two_coloumn_section{
+         
+          flex-direction: column;
+         align-items: center !important;
+        }
+        #col_cont{
+            margin-bottom: 0 !important;
+        }
+        header{
+            text-align: center;
+             padding: 45px 0;
+        }
+        #col_form{
+            margin-bottom: 30px;
+        }
+        .main-container{
+            background-image: none;
+        }
+       }
+       @media only screen and (max-width:600px){
+        #two_coloumn_section{
+          
+         gap: 20px;
+        }
+        header{
+            padding-bottom:20px ;
+        }
+       #section2_list{
+           flex-wrap: wrap;
+           gap: 0 !important;
+        }
+        #col_form{
+            padding: 0 !important;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; 
+            margin: 0 !important;
+        }
+        .form{
+            margin: 0;
+            border-radius: 5px;
+        }
+        #Section-2{
+            padding: 0 !important;
+            margin: 50px 0;
+
+        }
+        .Module2-Heading{
+            margin-bottom:30px;
+            text-align: center;
+        }
+        #col_cont{
+
+            padding: 20px !important;
+        }
+        #CTA-section{
+            padding: 20px !important;
+        }
+        .CTA-Heading{
+            font-size: 26px;
+            margin-top: 30px;
+        }
+        footer{
+            padding:0 40px;
+        }
+        .CTA-button{
+           max-width:188px;
+           width:100%;
+        }
+        .content_list{
+            padding-bottom: 0px !important;
+           
+
+        }
+       .main-container{
+        border-bottom-right-radius:5px ;
+        border-bottom-left-radius:5px ;
+        
+       }
+
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="main-container" >
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                         <img  src="http://576-LMG-633.mktoweb.com/rs/576-LMG-633/images/Logo Wordmark%3DWhite.png?version=0" width="112" alt="">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div id="Section-2" class="container">
+                <div  id="two_coloumn_section" class="row">
+                    <div id="col_cont" class="col">
+                        <p class="preheader" >
+                            EBOOK
+                        </p>
+                    <h1 style="line-height: 39px;font-weight: 600px;">
+                        Inspiration-worthy <br>
+landing page designs
+                    </h1>
+                    <p class="two_Col_Cont">
+                        In this Ebook, we’ve compiled the 23 best landing page designs from leading brands over the past 
+12 months.
+<br>
+<br>
+Learn what they do well, what we would recommend they test, and how you can create your own attractive and high-converting landing pages. 
+                    </p>
+                   
+                        <img class="landing_page" src="http://576-LMG-633.mktoweb.com/rs/576-LMG-633/images/WhatsApp Image 2024-07-23 at 15.02.00 %282%29.jpeg?version=0"  alt="">
+                  
+                   
+                    <h2 >
+                        In this Ebook you’ll learn:
+                    </h2>
+                 
+                    <ul class="section_1_list">
+                        <li class="list"><p >How to create highly effective, high-converting landing pages from industry leaders</p></li>
+                        <li class="list"><p >What landing page design attributes drive conversion</p></li>
+                        <li class="list"><p >What elements of your landing pages should be 
+                            A/B tested </p></li>
+                    </ul>
+                
+                    </div>
+                    <div id="col_form" class="col">
+                      <div class="form" >
+                        <form>
+                         <h2 style="text-align: center;">Get The Ebook</h2>
+  <input required  type="text" id="fname" name="fname" placeholder="First Name*" class="feel-form"><br>
+  <hr class="horizontal-line">
+  <input required type="text" id="fname" name="lname" placeholder="Last Name*" class="feel-form"><br>
+  <hr class="horizontal-line">
+  <input required type="text" id="fname" name="fname" placeholder="Business Email*" class="feel-form"><br>
+  <hr class="horizontal-line">
+  <input required type="text" id="fname" name="fname" placeholder="Company Name*" class="feel-form"><br>
+  <hr class="horizontal-line">
+  <select id="select_country" name="Country" placeholder="Country*" class="feel-form">
+    <option value="volvo">Country*</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select><br>
+  <hr class="horizontal-line">
+  <input  type="tel" id="phone" name="phone" placeholder="Phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" class="feel-form">
+  <hr class="horizontal-line">
+  <button class="form-button" type="button" onclick="alert('Hello World!')">DOWNLOAD NOW</button>
+
+                        </form>
+                      
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <section>
+        <div id="section-2" class="container">
+            <div class="row">
+                <div class="col">
+                   <h2 class="Module2-Heading">
+                    Meet Instapage: The most powerful landing page platform on the market
+                   </h2>
+                   <p>
+                    Our customers convert<strong> 4x more ad traffic.</strong> The Instapage platform allows you to: 
+                   </p>
+                </div>
+            </div>
+            <div id="section2_list" class="row">
+                <div class="col">
+                  <ul>
+                    <li class="content_list"><p>Build and update landing pages in minutes–without a developer</p></li>
+                    <li class="content_list"><p>Streamline the review process with real-time collaboration</p></li>
+                    <li class="content_list"><p>Ensure brand compliance with precision design features</p></li>
+                  </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li class="content_list"><p>Seamlessly integrate your entire marketing stack to elevate attribution and lead nurturing 
+                        </p></li>
+                        <li class="content_list"><p>Convert more leads with customizable forms</p></li>
+                        
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div  id="CTA-section">
+    <section >
+        <div  class="container">
+            <div class="CTA_Section"  class="row">
+                <div class="col">
+                    <h2 class="CTA-Heading">
+                        Ready to turn more ad clicks into customers?
+                    </h2>
+                    
+                    <button class="CTA-button" type="button" onclick="alert('Hello World!')">Get the EBook</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        © 2024 Instapage. All Rights Reserved | Privacy Policy | Copyright Policy
+    </footer>
+</div>
+</body>
+</html>
